@@ -1,7 +1,7 @@
 """
 Chart of API
 ---------------
-Resource            Address     Protocol    Param               Responses
+Resource             Address     Protocol   Params              Responses
 ----------------------------------------------------------------------------------------------
 Register            /register    POST       username,           200 OK
                                             password            301: Invalid username
@@ -10,7 +10,6 @@ Detect              /detect      POST       username,           200 OK: return s
                                             password,           301: Invalid username
                                             text1,              302: Invalid password
                                             text2               303: Out of tokens
-                                                                303: Out of tokens
 
 Refill              /refill      POST       username,           200 OK
                                             admin_password      301: Invalid username

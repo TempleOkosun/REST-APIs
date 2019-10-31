@@ -1,7 +1,7 @@
 """
 Chart of API
 ---------------
-Resource            Address     Protocol    Param               Responses
+Resource             Address     Protocol   Params              Responses
 ----------------------------------------------------------------------------------------------
 Register            /register    POST       username,           200 OK
                                             password            301: Invalid username
